@@ -1,0 +1,50 @@
+CSS NOTES/SYNTAX
+Cascading Style Sheet
+
+Ways of Using CSS
+Inline CSS-- This is done directly in the html element
+Internal CSS-- Using styleTag  within a single document
+External CSS-- This is Linking an external.css file into the html 
+
+
+create a .CSS file
+link your cssFile to your htmlFile (<link rel="")
+Id  >> represents an identifier for elements that wont be used anywhere else in the html
+class >>  represents an identifier for elements that can be re-used anywhere else in the html(use class preferrably)
+CSS Selector:
+Selector                Property            Value
+<any identifier>{ 
+          backgroundColour     yellow
+        }
+
+
+body{
+    backgroundColour:
+    colour;
+    font-family:
+    font-size 0px;
+    font-weight: normal
+    OR
+    font- normal 0px sans-serif
+    line-height- 0em/0px
+    margin-0;
+}
+
+.class-name{
+    backgroundColour:
+    text-colour(or color) 
+    margin: auto(this pushes the texts to the center, you can choose any)(spacing the outside of the boxborder)
+    margin: 0px 0px 0px 0px(top px right px buttom px left px)
+    width: in px or % or rem
+    padding: this is spacing inside the border of the box
+    padding: top px bottom px
+    font-style: italics
+    text-decoration: underline(or none)
+    text-transform: uppercase(or any option)
+    letter-spacing: 0.0em
+    word-spacing: 1em
+    border: 0px dotted (or anyOption)
+    border-radius:0px for curved edges
+    text-align: center or top or anywhere
+
+}

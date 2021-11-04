@@ -1,0 +1,59 @@
+TAGS IN HTML
+Elemnts in Html, are the tags
+
+<h1></h1>...<h6></h6> ---- This is the HeadingTags text
+
+<p></p> ---- The Paragraph Tag
+
+<br/> --- The Line-Break Tag which is self closing(pushes the text or element down the line)
+
+<!--text--> ---This tag stands for the Comments tag
+
+<a href=""></a> --- This that is the link tag, that links a text to another page on the same tab or a different page,
+ depending on what link you put in the double quotes
+<a href="site.com", target="_blank"></a> -- this opens on a new tab.
+
+some tags allow or provide information about an Elements
+
+<ul></ul> --- This is the UN-ordered List
+when using the <ul> tag, you must use the <li>tag inside it
+<li></li> --- This is the list tag for lists just like bullet points
+<ol></ol> --- This is the Ordered-List, which changes the bullet points to numbers
+
+<table></table> --- This is the table tag
+<tr></tr> --- This is the table row that stays inside the table tag
+
+<div></div> --- This is the division tag, that segments the body of your program into sections.
+
+<form></form> --- This is the form tag
+<form action="process" method="post"></form> --- Most times in the form tag comes the attribute (action and method)
+<label></label> --- This comes inside the form tag and serves as an identity for what'll be in the input
+<input type="" name=""> --- This is the attributes (type(has different options)), name)
+    inside the input bracket, you can put a (place holder="") which holds what the user needs to impute
+ There is also an input type with attribute(type="submit" name="submit" value="Submit") which creates a submit button
+<textarea name="message"></textarea> --- This is another kind of input tag taht comes with the attribute type(name)
+<select name=""></select> --- This tag is for selection with different attributes (e.g name)and inside it comes the option tag
+<option value="" ></option> --- This is the option tag with the attribute(value)
+
+<hr> --- This tag represents a horizontal line accross the page
+
+<button>Click me!</button> --- This is the Button tag that creates a button
+
+<img src="folderName/imageName" alt="My Sample Image"> --- This is an image tag. Here you have to download and save an image in a folder
+The alt attribute is to indicate the name of the image, incase the html doesnt find the image in your folder
+    It is advisable to have a separate folder for your images so you can fetch it with using the folder name and image name, in your <img src="">
+
+<abbr title="anyDescription">TEXT</abbr> --- This is the abbreviation tag that comes inside a <p>tag, hides the name of a text.
+<cite></cite> --- This cite tag, also in a <div> or <p> tag, highlights a text thats being cited.
+    (e.g <p><cite>SUPER STORY</cite> by Nomso</p>) 
+
+
+HTML5 Semantic Tags:
+    <header></> -- this is for the header
+    <footer></>
+    <aside></>
+    <main></>
+    <article></>
+    <nav></> --- nav bar
+    <section></>
+    <footer></> 

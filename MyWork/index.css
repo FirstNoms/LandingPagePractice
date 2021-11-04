@@ -1,0 +1,94 @@
+body{
+    padding-top: 0;
+}
+
+#container{
+    background-color: #8b9e6E;
+    color:white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#banner{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.navbar h4{
+    margin-top: 1.8rem;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.navbar button{
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    background-color: black;
+    color:white;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 10px;
+}
+
+.navbar a{
+    font-size: 0.7rem;
+    margin-top: 2rem;
+}
+
+.Intro-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Intro-1 p {
+    font-size: 9px;
+    opacity:0.9;
+    margin-bottom:2rem;
+}
+
+.Intro-1 img{
+    position: relative;
+    bottom: 8rem;
+    right: 10rem;
+    height: 11rem;
+}
+
+.check{
+    display: flex;
+    margin: 0.5rem;
+    position: relative;
+    bottom: 7rem;
+    right: 0.5rem;
+}
+
+.check1 button{
+    background-color: black;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.check2 button{
+    background-color:#8b9e6E;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius:1.5rem;
+    border: 1px solid white;
+}
+
+.white-bg{
+    background-color: white;
+    /*height: 20rem;*/
+    /*width: 20rem;*/
+}

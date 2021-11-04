@@ -1,0 +1,20 @@
+Here We Think in COMPONENTS
+React Involves:
+-- Events are Handled (i.e events in js like, "onclick" etc)
+-- State Change (i.e in js, when an event happens there happens a change. e.g calculator)
+-- MarkUp and Logic
+
+React involves we think in COMPONENTS.
+- React is a Library/Framework of elements written in Javascript
+- components is when you have your HTML and JS in one file(a file)
+- components involves the separation of conerns, i.e it should do one thing at a time.
+- React uses VIRTUAL DOM(false dom)
+- in JavaScript, we represent a key value pair by "object"
+- Whenever youre putting in a javascript into an html, start with a curly brace
+- Whenever youre putting in a javascript object into an html, use a double curly brace, one holding the key:value object & an outer one.
+- COMPONENTS ARE REUSEABLE BLOCKS OF CODES, WRITTEN AS A FUNCTION, RETURNS HTML ELEMENTS USING JSX(JavaScript Extension).
+- Props(Property) are the values of the components that differentiates each component from the other.
+- when you create a component, you must return something that  references(looks like) the component e.g
+function Button(){
+    return(<button></button>)
+}
