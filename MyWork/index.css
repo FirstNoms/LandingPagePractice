@@ -1,11 +1,11 @@
 body{
-    padding-top: 0;
+    margin: auto;
 }
 
 #container{
     background-color: #8b9e6E;
     color:white;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     font-family: sans-serif;
 }
@@ -21,7 +21,7 @@ body{
 .navbar{
     display:flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    /*margin-top: 2rem;*/
 }
 
 .navbar button{
@@ -39,9 +39,20 @@ body{
     margin-top: 2rem;
 }
 
+.Intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Intro img{
+    margin-right: 18rem
+}
+
 .Intro-1{
     display: flex;
     justify-content: space-between;
+
+    /*position: center;*/
 }
 
 .Intro-1 p {
@@ -50,11 +61,11 @@ body{
     margin-bottom:2rem;
 }
 
-.Intro-1 img{
-    position: relative;
-    bottom: 8rem;
-    right: 10rem;
-    height: 11rem;
+.Chairs{
+    display: flex;
+    margin-right: 5rem;
+    align-items: flex-end;
+
 }
 
 .check{
