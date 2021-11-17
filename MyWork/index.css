@@ -6,21 +6,22 @@ body{
     background-color: #8b9e6E;
     color:white;
     margin-top: 0;
-    padding: 0;
+    /*padding: 0;*/
     font-family: sans-serif;
 }
 #banner{
     padding-left: 10%;
     padding-right: 10%;
-
 }
+
 .navbar h4{
-    margin-top: 1.8rem;
+    margin-top: 0.9rem;
 }
 
 .navbar{
     display:flex;
     justify-content: space-between;
+    margin-right: 3.5rem;
     /*margin-top: 2rem;*/
 }
 
@@ -36,7 +37,7 @@ body{
 
 .navbar a{
     font-size: 0.7rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .Intro {
@@ -48,13 +49,6 @@ body{
     margin-right: 18rem
 }
 
-.Intro-1{
-    display: flex;
-    justify-content: space-between;
-
-    /*position: center;*/
-}
-
 .Intro-1 p {
     font-size: 9px;
     opacity:0.9;
@@ -63,17 +57,17 @@ body{
 
 .Chairs{
     display: flex;
-    margin-right: 5rem;
+    margin-left: 35rem;
     align-items: flex-end;
-
+    height: 8rem;
 }
 
 .check{
     display: flex;
-    margin: 0.5rem;
     position: relative;
-    bottom: 7rem;
+    top: 0.5rem;
     right: 0.5rem;
+    height: 5rem;
 }
 
 .check1 button{
@@ -98,8 +92,14 @@ body{
     border: 1px solid white;
 }
 
-.white-bg{
-    background-color: white;
-    /*height: 20rem;*/
-    /*width: 20rem;*/
+.lowerSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    margin-top: 2rem;
+}
+
+.Info p{
+    font-size: 0.5rem;
+    font-weight: lighter;
 }
