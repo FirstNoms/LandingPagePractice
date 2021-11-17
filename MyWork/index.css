@@ -103,6 +103,39 @@ body{
     font-size: 0.5rem;
     font-weight: lighter;
 }
+
 .detail1{
-    align-content: center;
+    margin-top: 5rem;
+}
+
+.detail1 h1{
+    color: #444403;
+    font-family: Cambria;
+}
+
+.news{
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+.contactinfo{
+    display: flex;
+    /*margin: 3rem;*/
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+#inner2{
+    margin-right: 3rem;
+
+}
+
+#inner1 h2{
+    font-family: Constantia, serif;
+    color: #444403;
+    margin-bottom:4rem;
+}
+
+#inner1 p{
+    font-family: Cambria, sans-serif;
 }
