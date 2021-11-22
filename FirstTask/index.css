@@ -1,0 +1,100 @@
+body{
+    background-color:black;
+}
+
+.container{
+    display:flex;
+    border-radius: 100px;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.firstPix{
+    position: absolute;
+    left: 20.8rem;
+    margin-top: 5.3rem;
+}
+
+.leftside{
+    background-color: rgb(211, 211, 207);
+    width: 350px;
+}
+
+.leftNavBar{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    font-size:x-small;
+    padding: 10px 40px;
+}
+
+.leftsTexts h2{
+    margin-left: 3rem;
+    font-family: Calibri Light, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 2.5rem;
+}
+
+.leftsTexts img{
+    width: 15rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.rightside{
+    background-color:rgb(175, 167, 167);
+    width: 350px;
+}
+
+.rightNavBar{
+    display: flex;
+    align-items: center;
+    margin-left: 13rem;
+    font-size:small;
+}
+
+.rightNavBar button{
+    border-radius: 2px;
+    width: 4rem;
+    height: 2rem;
+    margin-left: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 9px;
+}
+
+.rightside img{
+    width: 18rem;
+    height: 13rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.rightTexts{
+    margin-left: 3rem;
+    font-family: Calibri Light, sans-serif;
+    font-size: x-small;
+    word-spacing: 8px;
+}
+
+#rightLowerClicks{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#rightLowerClicks h5{
+    margin-left: 2rem;
+    word-spacing: 2px;
+}
+
+#rightLowerClicks button{
+    border-radius: 2px;
+    width: 4.5rem;
+    height: 2rem;
+    margin-left: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 9px;
+}
