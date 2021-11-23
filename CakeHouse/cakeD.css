@@ -1,0 +1,260 @@
+body {
+    color: white;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.upperSection{
+    background-color:seagreen;
+
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    margin-left: 9rem;
+}
+
+.navBar h4{
+    margin-top: 3rem;
+}
+
+.links{
+    margin-left: 30rem;
+    word-spacing: 2rem;
+    font-size: 14px;
+}
+
+
+.leftInfo{
+    margin-top: 3rem;
+    margin-left: 9rem;
+
+}
+.leftInfo h1{
+    font-family: helvetica sans-serif;
+    font-size: 30px;
+}
+#gist{
+    font-size: x-small;
+    margin-top: 2rem;
+}
+button{
+    background-color: #ee2850;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.3rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.boxes{
+    display: flex;
+    margin-left: 47rem;
+    align-items: flex-end;
+    height: 8rem;
+}
+
+.firstBoxs{
+    bottom: 2px;
+}
+
+.secondBoxs{
+    margin-left: 2rem;
+    align-items: flex-end;
+    height: 29rem;
+}
+
+.topBox{
+    width: 8.5rem;
+    height: 11rem;
+    border-radius:1rem;
+    border: 20rem;
+    color: darkgreen;
+    background-color: whitesmoke;
+    box-shadow: 7px 7px;
+
+}
+
+.topBox img{
+    width: 6.3rem;
+    height: 6.3rem;
+    margin-left: 1rem;
+
+}
+
+.topBox h4{
+    font-size: x-small;
+    font-family: Cambria, sans-serif;
+    text-justify: auto;
+    margin-left: 1.5rem;
+    line-height: 1rem;
+}
+
+.bottomBox{
+    width: 8.5rem;
+    height: 11rem;
+    border-radius:1rem;
+    color: darkgreen;
+    background-color: white;
+    margin-top: 1.5rem;
+    box-shadow: 7px 7px;
+}
+
+.bottomBox img{
+    width: 6.3rem;
+    height: 6.3rem;
+    margin-left: 1rem;
+}
+
+.bottomBox h4{
+    font-size: x-small;
+    font-family: Cambria, sans-serif;
+    text-justify: auto;
+    margin-left: 1.5rem;
+    line-height: 1rem;
+}
+
+/*.main-frame{*/
+
+.secondTopBox{
+    width: 8.5rem;
+    height: 11rem;
+    border-radius:1rem;
+    border: 20rem;
+    color: darkgreen;
+    background-color: whitesmoke;
+    box-shadow: 7px 7px;
+
+}
+
+.secondTopBox img{
+    width: 6.3rem;
+    height: 6.3rem;
+    margin-left: 1rem;
+
+}
+
+.secondTopBox h4{
+    font-size: x-small;
+    font-family: Cambria, sans-serif;
+    text-justify: auto;
+    margin-left: 1.5rem;
+    line-height: 1rem;
+}
+
+.secondBottomBox{
+    width: 8.5rem;
+    height: 11rem;
+    border-radius:1rem;
+    color: darkgreen;
+    background-color: white;
+    margin-top: 1.5rem;
+    box-shadow: 7px 7px;
+}
+
+.secondBottomBox img{
+    width: 6.3rem;
+    height: 6.3rem;
+    margin-left: 1rem;
+}
+
+.secondBottomBox h4{
+    font-size: x-small;
+    font-family: Cambria, sans-serif;
+    text-justify: auto;
+    margin-left: 1.5rem;
+    line-height: 1rem;
+}
+
+
+.lowerSection{
+    color: darkgreen;
+}
+
+.lowerInfo{
+    margin-left: 27rem;
+    margin-top: 6rem;
+}
+.lowerInfo h5{
+    margin-left: 8rem;
+}
+
+
+.lowerCakes{
+    display: flex;
+    margin-left: 2rem;
+}
+.one{
+    width: 15rem;
+    height: 25rem;
+    border-radius:1rem;
+    color: darkgreen;
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+.one img{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 1rem;
+}
+.one p{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+}
+.one h6{
+    text-align: center;
+}
+/*    */
+.two{
+    width: 15rem;
+    height: 25rem;
+    border-radius:10rem;
+    border: solid lightgrey;
+    color: darkgreen;
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+.two img{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 1rem;
+}
+.two p{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+}
+.two h6{
+    text-align: center;
+}
+/*    */
+.three{
+    width: 15rem;
+    height: 25rem;
+    border-radius:1rem;
+    color: darkgreen;
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+.three img{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 1rem;
+}
+.three p{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+}
+.three h6{
+    text-align: center;
+}

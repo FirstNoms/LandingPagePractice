@@ -1,0 +1,71 @@
+*{
+    font-family: "Roboto", sans-serif;
+    text-align-last: center;
+}
+:root{
+    --primary: #ff5678;
+}
+h1{
+    color: var(--primary);
+}
+.portfolio-container{
+    padding: 2% 10%;
+}
+.header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#logo{
+    color: var(--primary);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.links{
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.say-hi{
+    background-color: var(--primary);
+    border: unset;
+    color: rgb(255, 255, 255);
+    padding: 15px 45px;
+    border-radius: 2px;
+}
+
+.links a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.hero-section{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 25rem;
+}
+.hero-text h4{
+    font-size: 28px;
+    font-weight: bold;
+    margin: unset;
+}
+
+.hero-text p{
+    margin: unset;
+    color: rgb(36, 36, 36);
+    line-height: 23px;
+}
+
+.hero-links{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content:space-between;
+}
+
