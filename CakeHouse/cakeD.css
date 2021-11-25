@@ -403,6 +403,9 @@ button{
     margin-top: 3rem;
 }
 
+.banner1{
+    margin-left:5rem;
+}
 .banner1 img{
     width: 10rem;
     height: 8rem;
@@ -436,6 +439,9 @@ button{
     margin-top: 0;
 }
 
+.banner4{
+    margin-right:5rem;
+}
 .banner4 img {
     width: 10rem;
     height: 8rem;
@@ -445,4 +451,52 @@ button{
     text-align: center;
     margin-left: 2rem;
     margin-top: 0;
+}
+
+
+.aboutLowerSection{
+    background-color: #d0e8db;
+    color: darkgreen;
+}
+.aboutLowerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.firstInfo h4{
+    margin-top: 0;
+    margin-left: 5rem;
+}
+
+.secondInfo{
+    margin-top:5.5rem;
+}
+.secondInfo p{
+    font-weight: bold;
+}
+.secondInfo h6{
+    line-height: 1.5rem;
+}
+
+.thirdInfo{
+    margin-top:5.8rem;
+}
+.thirdInfo p{
+    font-weight: bold;
+}
+.thirdInfo h6{
+    line-height: 1.5rem;
+}
+
+.fourthInfo{
+    margin-top:5.5rem;
+    margin-right:5rem;
+}
+.fourthInfo p{
+    font-weight: bold;
+}
+.fourthInfo h6{
+    line-height: 1.5rem;
 }
