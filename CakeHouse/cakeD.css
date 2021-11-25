@@ -6,7 +6,6 @@ body {
 
 .upperSection{
     background-color:seagreen;
-
 }
 
 .navBar{
@@ -29,7 +28,6 @@ body {
 .leftInfo{
     margin-top: 3rem;
     margin-left: 9rem;
-
 }
 .leftInfo h1{
     font-family: helvetica sans-serif;
@@ -257,4 +255,194 @@ button{
 }
 .three h6{
     text-align: center;
+}
+
+.aboutUpperSection{
+    background-color: #d0e8db;
+}
+
+
+.aboutNavBar{
+    display: flex;
+    align-items: center;
+    margin-left: 9rem;
+}
+
+.aboutNavBar h4{
+    margin-top: 3rem;
+}
+
+.aboutLinks{
+    margin-left: 30rem;
+    word-spacing: 2rem;
+    font-size: 14px;
+}
+
+.aboutInnerUpper{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.aboutLeftInfo img{
+    width: 17rem;
+    height: 17rem;
+    margin-left: 5rem;
+
+}
+
+.aboutRightInfo{
+    margin-left: 30rem;
+
+}
+
+#learnMore{
+    background-color:  #d0e8db;
+    border: solid darkgrey;
+    border-radius: 8px;
+    padding: 0.5rem 1.3rem;
+    color: darkgreen;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.midSectionTop{
+    display: flex;
+}
+
+.topMidLeft{
+    margin-left: 8rem;
+    margin-top:3rem;
+}
+
+
+.topMidRight img{
+    width: 17rem;
+    height: 17rem;
+    margin-left: 25rem
+}
+
+.midSectionMid{
+    display: flex;
+    color: darkgreen;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.midLeft img{
+    width: 12rem;
+    height: 12rem;
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+.midLeft h2{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+.midLeft h6{
+    text-align: center;
+    margin-left: 8rem;
+}
+
+.midMid{
+    margin-right: 2rem;
+}
+.midRight{
+    margin-right: 3rem;
+}
+
+.midMid img{
+    width: 17rem;
+    height: 18rem;
+    margin-left: 4rem;
+    margin-top: 1.6rem;
+
+}
+.midMid h2{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.midMid h6{
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.midRight img{
+    width: 13rem;
+    height: 12rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+.midRight h2{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+.midRight h6{
+    text-align: center;
+    margin-right: 5rem;
+}
+
+.midSectionBottom{
+    text-align: center;
+    color: darkgreen;
+    margin-top: 6rem;
+    line-height: 0;
+}
+
+.banners{
+    display: flex;
+    color: darkgreen;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.banner1 img{
+    width: 10rem;
+    height: 8rem;
+    margin-left: 2rem;
+}
+.banner1 h6{
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+.banner2 img {
+    width: 10rem;
+    height: 8rem;
+    margin-left: 2rem;
+}
+.banner2 h6{
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+.banner3 img {
+    width: 10rem;
+    height: 8rem;
+    margin-left: 2rem;
+}
+.banner3 h6{
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+.banner4 img {
+    width: 10rem;
+    height: 8rem;
+    margin-left: 2rem;
+}
+.banner4 h6{
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 0;
 }
