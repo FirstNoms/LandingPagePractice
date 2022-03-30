@@ -1,10 +1,12 @@
 <template>
-$END$
+<div id="app">
+  <p>{{ title }}</p>
+</div>
 </template>
 
 <script>
 export default {
-name: "example"
+  name: "example"
 }
 </script>
 

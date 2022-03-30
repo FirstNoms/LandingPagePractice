@@ -1,0 +1,13 @@
+body{
+    justify-content: center;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.secondSection{
+    margin-left: 30%;
+}
+
+.thirdSection ul li{
+    padding-bottom: 30px;
+}

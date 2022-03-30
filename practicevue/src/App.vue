@@ -7,11 +7,13 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import example from "./components/example.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // eslint-disable-next-line vue/no-unused-components
+    HelloWorld, example
   }
 }
 </script>
