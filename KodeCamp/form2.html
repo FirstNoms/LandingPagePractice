@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kodecamp Registration form</title>
+    <link rel="stylesheet" href="css/form2.css">
+</head>
+<body>
+<div class="formPage">
+    <div id="top">
+        <h1>KodeCamp Registration Form</h1>
+        <p> <i style="opacity: 0.9;">Please fill in the following details correctly</p>
+    </div>
+    <form action="" method="get" class="container">
+        <div class="mainForm">
+            <label for="firstname">First name-</label>
+            <input class="fields" type="text" id="firstname" placeholder="Enter Firstname" >
+            <label for="lastname">Last name-</label>
+            <input class="fields" type="text" id="lastname" placeholder="Enter Lastname" name="lastname">
+
+            <label for="email">Email Address-</label>
+            <input class="fields" type="email" placeholder="Enter email address" name="email">
+
+            <label for="mode">Gender-</label>
+            <select name="mode" class="fields" style="width: 47.5vw">
+                <option disabled selected value>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">Can't disclose</option>
+            </select>
+        </div>
+
+        <div class="mainForm">
+            <label for="mode">Educational background</label>
+            <select name="mode" class="fields" style="width: 47.5vw; margin-bottom: 3px" >
+                <option disabled selected value>Select Educational background</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="OND">OND</option>
+                <option value="HND">HND</option>
+                <option value="Masters">Masters</option>
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="waec">SSCE</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="mainForm">
+            <p>Do you have a laptop?</p>
+            <div>
+            <input type="radio" name="fav_language" value="HTML">
+            <label for="yes">Yes</label>
+            </div>
+            <div>
+            <input type="radio" name="fav_language" value="CSS">
+            <label for="no">No</label>
+            </div>
+        </div>
+
+        <div class="mainForm">
+            <label for="mode">How did you hear about KodeCamp:</label>
+            <select name="mode" class="fields" style="width: 47.5vw">
+                <option disabled selected value>Select option</option>
+                <option value="friends">Friends</option>
+                <option value="Social media">Social media</option>
+                <option value="School">School</option>
+                <option value="Place of work">Place of work</option>
+            </select>
+        </div>
+
+
+        <div class="mainForm">
+            <label for="mode">What track are you registering for?</label>
+            <select name="track" class="fields" style="width: 47.5vw">
+                <option disabled selected value>Select track</option>
+                <option value="frontend">Front end</option>
+                <option value="ui/ux">UI/UX</option>
+                <option value="Andriod Development">Andriod Development</option>
+                <option value="Project management">Project management</option>
+                <option value="backend">Backend</option>
+                <option value="CAD">CAD</option>
+                <option value="Digital marketing">Digital marketing</option>
+                <option value="Enterpreneurship">Enterpreneuship</option>
+                <option value="IOT">IOT</option>
+                <option value="Nodejs">Nodejs</option>
+                <option value="Php">Php</option>
+                <option value="Phyton">Phyton</option>
+            </select>
+        </div>
+
+        <div class="mainForm">
+            <label for="mode">What level are you registering for?</label>
+            <select name="level" class="fields" style="width: 47.5vw">
+                <option disabled selected value>Select option</option>
+                <option value="beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+
+            </select>
+        </div>
+
+        <div class="mainForm">
+            <label for="mode">What is your Country of Origin?</label>
+            <select name="country" class="fields" style="width: 47.5vw">
+                <option disabled selected value>Select your Country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Arab">Arab</option>
+                <option value="Benin">Benin</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Niger">Niger</option>
+                <option value="Mali">Mali</option>
+                <option value="Malawi">Malawi</option>
+            </select>
+        </div>
+
+        <div class="description">
+            <p>Please Tell us about yourself.</p>
+            <textarea name="comment" cols="30" rows="10" placeholder="Brief description about yourself" class="fields"
+                      style="width: 47vw"></textarea>
+        </div>
+        <div>
+            <button type="submit" class="submit">SUBMIT</button>
+        </div>
+
+    </form>
+
+</div>
+</body>
+</html>
